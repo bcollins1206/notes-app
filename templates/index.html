@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="../boot/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/custom.css">
+
+    <title>notes</title>
+
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-6 bg-dark d-flex flex-column p-3 text-light">
+          <h1 class="text-center">Message Board</h1>
+          <textarea id="msg" rows="20" cols="40" placeholder="Post Message Here"></textarea>
+          <div class="btn-group my-3" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-danger" id="submit">Submit</button>
+  <button type="button" class="btn btn-success" id="clearN">Clear List</button>
+  <button type="button" class="btn btn-warning" id="clearM">Clear Msg</button>
+</div>
+        </div>
+        <div class="col-6 bg-transparent">
+          <h2 id="display" class="text-break text-danger text-center"></h2>
+          <p id="letter" class="text-center text-break"></p>
+        </div>
+      </div>
+      <br><br>
+        <div class="row">
+          <div class="col-6" id="list">
+
+          </div>
+        </div>
+    </div>
+    <script src="../js/notes.js"></script>
+    <script src="../boot/jquery-3.4.1.min.js"></script>
+      <script src="../boot/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

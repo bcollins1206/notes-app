@@ -1,0 +1,9 @@
+body {
+  background-image: url(../photos/Tanspecks.jpg);
+}
+ div{
+  border-radius: 30px;
+}
+p {
+  font-size: 25px;
+}
